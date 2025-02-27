@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+      <style>
+
+         body{
+            background: linear-gradient(to right, #737171 50%, #000000 50%);
+            margin: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: beige;
+            
+         }
+
+         #body2{
+            display: inline-block;
+            border: 3px solid rgb(250, 250, 250);
+            background: linear-gradient(to right, #000000 50%, #737171 50%); 
+            border-radius: 5%;
+            padding: 5%;
+
+         }
+
+
+         h1,h3{
+
+            color: #D3D3D3;
+            
+         }
+
+        
+
+         b{
+            color: #D3D3D3;
+            display: flex; 
+            justify-content: center; 
+            text-align: center;
+         }
+         
+
+         li{
+          
+            list-style-position: inside; 
+            text-align: center;
+            text-align: justify;
+            padding-left: 10%;
+            
+         }
+
+         #li1{
+
+            padding-left: 20%;
+         }
+
+         td,th{
+            color: #c7c5c5;
+         }
+
+         #row1{
+           
+          
+            display: inline-block;
+            border: 3px solid rgb(250, 250, 250);
+            background: linear-gradient(to right, #000000 50%, #737171 50%); 
+            border-radius: 5%;
+            padding: 5%;
+
+         }
+
+         #row2{
+            color: rgb(232, 222, 222);
+            display: inline-block;
+            border: 3px solid rgb(255, 255, 255);
+            background: linear-gradient(to right, #737171 50%, #000000 50%); 
+            border-radius: 5%;
+            padding: 2%;
+
+         }
+
+         #row3{
+            
+           
+            display: inline-block;
+            border: 3px solid rgb(255, 255, 255);
+            background: linear-gradient(to right, #000000 50%, #737171 50%); 
+            border-radius: 5%;
+            padding: 3%;
+         }
+
+         #row4{
+
+            color: rgb(232, 222, 222);
+            display: inline-block;
+            border: 3px solid rgb(255, 255, 255);
+            background: linear-gradient(to right, #737171 50%, #000000 50%); 
+            border-radius: 5%;
+            padding: 2%;
+
+         }
+         
+         #we{ text-align: center;}
+
+
+         #link a{ 
+            color: white ;
+            text-decoration: none;
+            font-size: x-large;
+            
+         }
+
+         #link a:visited{
+            color:#ffffff;
+         }
+
+         #link a:hover{
+            color: #FFD700;
+            background-color: #2C003E;
+            transition: linear 1s;
+            width: 200px;
+            
+         }
+
+         #link a:active{
+            color: rgb(225, 41, 9);
+         }
+
+
+         /*
+         #link{
+            display: inline-block;
+            border: 5px solid #848383; 
+            border-radius: 50px;
+            padding: 70px;
+            background-color: #000000;
+            position:absolute ;
+            top: 200px;
+            left:  50px;
+            text-align: center;
+         } */
+
+         
+
+
+         #a1{
+            display: inline-block;
+            border: 1px solid #fff8f8; 
+            border-radius: 50px;
+            padding: 10px;
+            background-color: #000000;
+            position:absolute ;
+            top: 50px;
+            left: 27%;
+
+         }
+
+         #a2{
+            display: inline-block;
+            border: 1px solid #ffffff; 
+            border-radius: 50px;
+            padding: 10px;
+            background-color: #000000;
+            position:absolute ;
+            top: 50px;
+            left:38.5%;
+         }
+
+         #a3{
+            display: inline-block;
+            border: 1px solid #ffffff; 
+            border-radius: 50px;
+            padding: 10px;
+            background: linear-gradient(to right, #000000 50%, #737171 50%);
+            position:absolute ;
+            top: 50px;
+            right: 46.5%;
+         }
+
+         #a4{
+            display: inline-block;
+            border: 1px solid #ffffff; 
+            border-radius: 50px;
+            padding: 10px;
+            background-color: #737171;
+            position:absolute ;
+            top: 50px;
+            right:35.5%;
+         }
+
+         #a5{
+            display: inline-block;
+            border: 1px solid #ffffff; 
+            border-radius: 50px;
+            padding: 10px;
+            background-color: #737171;
+            position:absolute ;
+            top: 50px;
+            right: 24.5%;
+         }
+
+         #a6{
+
+            display: inline-block;
+            border: 1px solid #ffffff; 
+            border-radius: 50px;
+            padding: 10px;
+            background: linear-gradient(to right, #000000 50%, #737171 50%);
+            position:absolute ;
+            top: 120px;
+            right: 46.5%;
+
+         }
+
+         #a7{
+
+            display: inline-block;
+            border: 1px solid #ffffff; 
+            border-radius: 50px;
+            padding: 10px;
+            background: linear-gradient(to right, #000000 50%, #737171 50%);
+            position:absolute ;
+            top: 390%;
+            right: 48%;
+         }
+
+         #table1{
+            background-color: #000000;
+         }
+
+         #table{
+            background-color: #737171;
+            color: #D3D3D3;
+
+         }
+      </style>
+
+</head>
+<body >
+   <div id="top">&nbsp; </div>
+
+   <div id="link"> 
+      <a id="a1" href="https://sites.google.com/view/portfolio-mirandajustinedd/home">Klein's Portfolio </a>  <br>
+      <a id="a2" href="#Summary">Summary</a>   <br>
+      <a id="a3" href="#Educaton">Education</a>  <br>
+      <a id="a4" href="#Hardware Skill">Hardware Skill</a>  <br>
+      <a id="a5" href="#Software Skill">Software Skill</a>  
+      <a id="a6" href="#bottom">BOTTOM</a>
+      <a id="a7" href="#top">TOP</a>
+      </div>
+
+    <div style="display: inline-block; 
+    padding: 80px; 
+    background: linear-gradient(to right, #000000 50%, #737171 50%); 
+    border: 2px solid rgb(95, 95, 95);
+    box-shadow:3px 3px 8px 5px #737171,-3px -3px 8px 5px #000000 ;
+     border-radius: 50px;">
+    
+<img src="https://scontent.fbag4-1.fna.fbcdn.net/v/t1.15752-9/453485196_494563943158418_6609182381586970461_n.jpg?_n
+c_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGiktcbBwgget1NPapE0ds8yptPDUhz_M7Km08NSHP8z
+htmRdp5-TS-DdekTicWr_sljLUwS2ZwTf6T05PZEgCX&_nc_ohc=bM3fkokxEPoQ7kNvgE1jw89&_nc_oc=Adhl6PMbgLsfMSoQ9R
+9eRi63g3ghhhsttrCTRiXzMStJI9LXKMGS7wwM5LZP5aLOKWY&_nc_zt=23&_nc_ht=scontent.fbag4-1.fna&oh=03_Q7cD1gF
+0VtaUxMmcSmAqxonVH1EbeEanqeP4wR66Osfi6PP7Hg&oe=67C2DD39" width="250" height="300"> 
+
+</div>
+ 
+   <h1> Miranda, Justine D. </h1> 
+
+   <div > 
+<b> Email: </b><a href="justineklein29@gmail.com">Justineklein29@gmail.com</a> <br>
+<b>Phone: </b>(+63 947)-(816)-(4391)<br>
+<b>Address: </b>Block 13, Lot 77 Sameera Subd. Angeles City Pampanga  <br>
+
+</div>
+<hr> 
+
+   <div id="body2"> 
+
+   <div id="row1"> 
+
+<h3> Career Objective  </h3> 
+
+<p> I am seeking employment with a company where i can use my abilities and <br> skills to help, grow, and  achirve more success for the business </p>
+
+<h3> Expertise BIO  </h3> 
+
+<p> I am a skilled programmer with expertise in HTML, C, JavaScript, and Java.
+   I have experience in web development, system programming, and 
+  <br>game logic implementation. Passionate about writing clean, efficient code and solving complex problems. </p>
+
+
+ 
+
+<h3 id="Educaton"> Education  </h3> 
+
+   <ul id="li1"> 
+  
+   <li>  BSIT - Pampanga State Agricultural University - batch 28-29 </li>
+
+   <li>GAS - Gov. Rafael L. Lazatin Integrated School - Batch 22-23 </li>
+
+   <li> Angeles City National High School - Batch 20-21 </li>
+
+   <li> M. Nepomuceno Elementary School - Batch 15-16 </li>
+
+
+</ul>
+
+</div>
+
+<p>&nbsp; </p>
+
+<hr>
+
+  
+
+<div id="row2"> 
+   <h3 id="we"> Work Experience and Seminars and Workshop Attended</h3> 
+
+   <h3> SEMINAR</h3>
+<ul >
+            
+   <p> "Empowering Youth Through Progressive Innovations (YTPI)" <br>   
+      University of the Philippines Diliman, Quezon City February 15, 2025<br>   
+      This seminar aims to empower the youth by providing innovative solutions and tools to tackle<br>
+       challenges in education, technology, and social development, fostering a collaborative environment<br>
+       where young leaders and innovators can learn, share, and shape a better future.
+  </p>
+
+  <li> Understanding the importance of sustainability for the next generation</li>
+  <li>Youth-driven environmental projects and innovations </li>
+  <li> Collaborating with organizations for a sustainable future</li>
+
+</ul>
+
+<p>&nbsp; </p>
+
+<ul >
+   <p> "Innovations in Technology: Empowering IT Students for the Future" <br>   
+      University of Santo Tomas, Manila March 25, 2025 <br>   
+      This seminar empowers IT students with insights into the latest tech trends,<br>
+       innovations, and tools shaping the future. It offers hands-on learning, networking, <br>
+       and discussions on how students can become leaders and innovators in the tech industry.
+  </p>
+
+  <li> Understanding the importance of cybersecurity in the digital age</li>
+  <li>Key threats and challenges in cybersecurity </li>
+  <li> Best practices for securing digital platforms and networks</li>
+
+</ul>
+
+<p>&nbsp; </p>
+
+<ul>
+   <p> "Improving Delivery Rider Services: Innovations and Challenges in Angeles City" <br>   
+      Angeles City Convention Center, Pampanga April 5, 2025 <br>   
+      This seminar addresses key issues and opportunities in Angeles City's delivery rider industry,<br>
+       focusing on improving service quality, safety, and efficiency <br>
+       through innovative tools and technologies. Local riders, businesses, <br>
+       and experts will discuss the future of delivery services in the city.
+  </p>
+
+  <li> Addressing health and safety concerns for riders on the road</li>
+  <li>Legal protection and benefits for delivery riders in Angeles City </li>
+  <li>Solutions to reduce road accidents and enhance rider safety</li>
+
+</ul>
+   
+   </div>
+<hr>
+
+<div id="row3">
+
+
+   <h3>Work Experience</h3>
+   
+
+
+      <p> BARAM <br>
+      Delivery Rider<br>
+       Anuas, Friendship Angeles City.<br>
+       Feb 2023 – Dec 2024 
+    </p>
+
+
+<ul>
+
+   <li>Picking Up Orders – Collecting food packages from the restaurant.</li>
+
+   <li>Timely Delivery – Ensuring food reaches customers quickly and in good condition.</li>
+
+   <li> Customer Service – Being polite and professional with customers.</li>
+
+</ul>
+
+   <p>&nbsp; </p>
+
+
+    <p> YTPI Yokohama Tire Philippines, Inc. <br>   
+       Operator <br>
+       Jack Nasser Drive, Clark Freeport Zone, Angeles City, Pampanga, Philippines. <br>
+       June 2022 – Feb 2023
+    </p>
+
+
+<ul>
+
+   <li> Operating Machinery – Running and monitoring tire production machines.</li>
+
+   <li> Quality Inspection – Checking tires for defects and determining if they meet quality standards or need to be rejected. </li>
+
+
+</ul>
+</div>
+<p>&nbsp; </p>
+
+<hr>
+   <div id="row4"> 
+      <div id="Hardware Skill"> </div>
+<h3> Hardware Skills</h3>
+
+<ul>
+
+   <li>PC Assembly & Repair</li>
+
+   <li> Troubleshooting and Diagnostics</li>
+
+   <li> Network Setup & Configuration</li>
+
+</ul>
+
+<div id="Software Skill"></div>
+<h3>Software Skills </h3>
+
+
+
+       <b> Programming Languages</b> 
+
+   <li> Proficient in languages such as Python, Java,  and HTML/CSS for web development and software programming.</li> <br>
+
+   <b>Reformatting </b>
+
+   <li> Knowledge of FIGMA and Wix </li> 
+
+
+
+
+<h3> Additional Skills</h3>
+
+
+
+   <li>Communication Skills </li>
+
+   <li>Team Collaboration</li>
+
+   <li>Problem-Solving & Critical Thinking </li>
+
+   <li>Time Management & Organization </li>
+
+   <li>Multitasking </li>
+
+
+</div>
+<hr>
+   <h3> Character Reference</h3>
+
+<table border="1" width="900" height="200" style="margin: auto;" cellpadding="15px" id="table1">
+
+<tr id="table"> 
+   <th> Full Name</th>
+   <th> Designation</th>
+   <th>Email</th>
+   <th> Contact Number</th>
+  
+</tr>
+
+<tr> 
+   <td>Bry Guzman </td>
+   <td>Cyber Security Manager</td>
+   <td>bryguzman01@yahoo.com </td>
+   <td>+63 945-708-6543 </td>
+</tr>
+
+<tr> 
+   <td>Jonel Catap</td>
+   <td>Engineering Manager</td>
+   <td>jonelcatap16@yahoo.com </td>
+   <td>+63 905-534-2225</td>
+</tr>
+
+<tr> 
+   <td> Vhinz Gabriel</td>
+   <td>Network Security Manager </td>
+   <td>vhinzgabriel24@yahoo.com </td>
+   <td> +63 965-384-8342 </td>
+</tr>
+
+
+                  </table>
+                   
+
+                  <div id="bottom">&nbsp; </div>
+
+               </div>
+         </body>
+
+
+</html>
